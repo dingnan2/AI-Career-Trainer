@@ -5,9 +5,8 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "https://your-backend.onrender.com/api/:path*"
+      "source": "/api/:https://ai-career-trainer.onrender.com",
+      "destination": "https://your-backend.onrender.com/api/:https://ai-career-trainer.onrender.com"
     }
   ]
 }
-
