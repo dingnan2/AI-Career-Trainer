@@ -1,0 +1,22 @@
+# Render Blueprint for AI Career Trainer Backend
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: ai-career-trainer-api
+    runtime: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHONPATH
+        value: .
+      - key: OPENAI_API_KEY
+        sync: false  # Optional: set manually in Render dashboard
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: SESSION_TTL_HOURS
+        value: "24"
+

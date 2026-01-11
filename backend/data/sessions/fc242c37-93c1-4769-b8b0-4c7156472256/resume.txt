@@ -1,0 +1,99 @@
+Education
+
+Master of Computer ScienceDingnan Zheng
+
+(217) 979-9751 | zhengdingnan@gmail.com
+
+Address: 504 E Stoughton Street, Champaign IL 61820
+
+  Aug 2024 - Dec 2025 | Champaign, IL
+
+University of Illinois Urbana Champaign                                                                                                                                       
+
+Bachelor of Science in Computer Science and Statistics                                                        Aug 2021 - May 2024 | Champaign, IL
+
+University of Illinois Urbana Champaign                                                                                                                                      GPA:3.8/4.0
+
+Experience 
+
+Backend Developer Intern							              	September ~ Present | Remote
+
+BeeBee AI
+
+AI-Powered Stock Screening System: Developed and implemented a multi-step stock screening engine integrating LLM-based analysis with hard exclusion criteria and whitelist management, processing real-time market data for 1,250+ stocks across NASDAQ, HKEX, and XETRA markets with automated valuation triggers and compliance monitoring workflows.
+
+Quantitative Data Infrastructure: Built comprehensive whitelist management system with manual/system source tracking, audit trails, and dynamic AI model configuration supporting GPT-5, O3 Deep Research, and O4 Mini Deep Research models—enabling systematic portfolio risk assessment and automated compliance monitoring for institutional trading operations.
+
+Quant Research & Trading Analyst Intern                                                        January – August 2025 | Remote & Stony Brook, NY
+
+Camellia Venture Capital
+
+Market Data Infrastructure Development: Designed and implemented an automated SEC EDGAR database scraping pipeline, processing 30+ years of filings for 40,000+ companies with advanced rate-limiting, error handling, and structured SQLite storage for rapid retrieval—enabling quantitative research workflows and automated model inputs.
+
+Risk Analytics for Infrastructure Investments: Designed a five-factor, 29-metric quantitative risk framework for 11 publicly traded data center companies, integrating SEC EDGAR data with power risk, customer concentration risk, financial ratios, geographic risk scoring, and market competition metrics. Delivered structured risk scores and rankings for investment decision support.
+
+Algorithmic Trading: Designed and led a market simulation project enhancing the ABIDES framework by developing and refining realism metrics (e.g., entropy, autocorrelation, resilience) using over LOB data. Implemented advanced statistical tests (KS, AD, Ljung-Box) and visualization tools to compare simulated vs. real market behaviors, improving internal model validation for risk assessment.
+
+Technical Due Diligence: Analyzed computational approaches in startup investments, applying critical reasoning skills to evaluate technology infrastructure and scalability.
+
+Intern Management (Summer 2025): Managed all CVC intern project tracks, created technical guidance documents, and supervised deliverables to ensure analytical rigor and timely execution. Developed a Google Apps Script web app for real-time task tracking and progress reporting.
+
+Data Analyst Intern                                                                                                                 June - August 2023 | Shenzhen, China
+
+Essence Securities Co.
+
+Completed querying data and converting data tasks. Responsible for using platforms (Tableau and Power BI) and programming languages (SQL, R, Python) 
+
+Investment Analysts on Trading, Portfolio Managers, and Advanced Market Consultants on the trading desk. 
+
+Assisting in new business development and ongoing client service like rebalancing and portfolio monitoring.
+
+Research Assistant and Software Developer                                                                           June - August 2022 | Normal, IL 
+
+ Illinois State University (Dr. Sally Xie Group)
+
+Design a data analysis model for an NSF machine learning research proposal.
+
+Leveraging UX Digital Twins to elevate the user experience in enterprise resource planning by using OpenScope ERP.
+
+PROJECTS
+
+LLM & ML: U.S. Presidential Election Reddit Data Analysis | Project leader, team of 3	           Feb – Apr 2025 | Champaign , IL
+
+Analyzed 48,957 Reddit posts during the 2024 U.S. election using LDA and BART for zero-shot topic classification.
+
+Built an end-to-end NLP pipeline integrating sentiment analysis, event-driven modeling, and statistical validation.
+
+Identified 15 themes and linked sentiment shifts to campaign events.
+
+Database Administration: COVID-19 Indicator | Project leader, team of 4	                                          May 2023  Aug 2023 | Remote 
+
+Led development of a web app to visualize COVID-19 data across the US, processing 1M+ records.
+
+Implemented frontend using Express.js and managed backend logic with Flask to ensure efficient data handling.
+
+Designed and optimized a MySQL database schema in GCP for data analysis and visualization tasks. 
+
+Software Development and Web Design: Multi-Language Summarizer	                                          Feb 2023  Apr 2023 | Champaign, IL
+
+Developed the front-end for a Chrome web extension, Multi-Language Summarizer, using JavaScript with the React framework and designed a comprehensive user interface using HTML and CSS. 
+
+Collaborated with the backend team to create a seamless flow when user inputs trigger backend responses and generate summaries in multiple languages.
+
+Selected Courses
+
+Machine Learning, Artificial Intelligence, Data Structure, Programming Languages & Compilers, Parallel Programming, Computer Security, Logic in Computer Science, Software Design, Statistics and Probability, Advanced Data Analysis, Multivariate Analysis, Data Visualization, Statistical Modeling and Computing, Numerical Methods, Macro/Microeconomic
+
+Certificates and awards
+
+IBM Exploratory Data Analysis for Machine Learning (Coursera)    Issued March 12th, 2024. 
+
+Skills
+
+Programming Languages: Python, R, SQL, SAS, C++, JavaScript, HTML/CSS, Tableau, MATLAB
+
+Framework and Tools: VS Code, MySQL, MongoDB, Neo4j, GCP, DBMS, Oracle Database, Microsoft SQL Server, Pandas/NumPy
+
+Languages: English (TOEFL 113/120), German (A2 Level), Chinese (Mandarin, Cantonese, and Chaoshan) 
+
+Hobbies and Interests:  Coding, Dancing, Frisbee, Reading, Marathon, Music
