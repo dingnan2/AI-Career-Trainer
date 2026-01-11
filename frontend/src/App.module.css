@@ -1,0 +1,253 @@
+/* ============================================
+   App Layout
+   ============================================ */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: 
+    radial-gradient(ellipse at top left, rgba(73, 141, 163, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(194, 158, 127, 0.06) 0%, transparent 50%),
+    var(--bg-base);
+}
+
+/* ============================================
+   Header
+   ============================================ */
+
+.header {
+  padding: var(--space-lg) var(--space-xl);
+  border-bottom: 1px solid var(--border-default);
+  background: var(--bg-surface);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.logoIcon {
+  font-size: 1.75rem;
+  color: var(--primary);
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.subtitle {
+  margin-top: var(--space-xs);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apiKeySection {
+  margin-top: var(--space-md);
+}
+
+/* ============================================
+   Main Content
+   ============================================ */
+
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  padding: var(--space-xl);
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.inputPanel,
+.resultPanel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* ============================================
+   States
+   ============================================ */
+
+.offlineMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: var(--space-md);
+  text-align: center;
+  padding: var(--space-xl);
+}
+
+.offlineIcon {
+  font-size: 3rem;
+}
+
+.offlineMessage h2 {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+}
+
+.offlineMessage p {
+  color: var(--text-secondary);
+}
+
+.retryBtn {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background var(--transition-fast);
+}
+
+.retryBtn:hover {
+  background: var(--primary-hover);
+}
+
+.errorCard {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid var(--error);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.errorCard .errorIcon {
+  color: var(--error);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.errorCard p {
+  flex: 1;
+  color: var(--error);
+}
+
+.errorCard button {
+  background: transparent;
+  border: 1px solid var(--error);
+  color: var(--error);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.errorCard button:hover {
+  background: var(--error);
+  color: white;
+}
+
+.loadingCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--border-default);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingCard p {
+  color: var(--text-secondary);
+}
+
+.emptyState {
+  background: var(--bg-surface);
+  border: 1px dashed var(--border-default);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  opacity: 0.5;
+}
+
+.emptyState h3 {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.emptyState p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.loadingHint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.keyReminder {
+  color: var(--accent);
+  font-size: 0.8125rem;
+  margin-top: var(--space-sm);
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .main {
+    grid-template-columns: 1fr;
+    padding: var(--space-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: var(--space-md);
+  }
+
+  .logo h1 {
+    font-size: 1.25rem;
+  }
+
+  .main {
+    padding: var(--space-md);
+    gap: var(--space-md);
+  }
+}
+

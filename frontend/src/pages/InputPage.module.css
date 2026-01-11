@@ -1,0 +1,147 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: 
+    radial-gradient(ellipse at top left, rgba(73, 141, 163, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(194, 158, 127, 0.06) 0%, transparent 50%),
+    var(--bg-base);
+}
+
+/* Header */
+.header {
+  padding: var(--space-lg) var(--space-xl);
+  text-align: center;
+  border-bottom: 1px solid var(--border-default);
+  background: var(--bg-surface);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.logoIcon {
+  font-size: 1.75rem;
+  color: var(--primary);
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.subtitle {
+  margin-top: var(--space-xs);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.apiKeySection,
+.uploadSection,
+.jdSection {
+  width: 100%;
+}
+
+.keyReminder {
+  text-align: center;
+  color: var(--accent);
+  font-size: 0.875rem;
+  padding: var(--space-md);
+  background: rgba(194, 158, 127, 0.1);
+  border-radius: var(--radius-md);
+}
+
+/* Offline / Loading states */
+.offlineMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: var(--space-md);
+  text-align: center;
+  padding: var(--space-xl);
+}
+
+.offlineIcon {
+  font-size: 3rem;
+}
+
+.offlineMessage h2 {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+}
+
+.offlineMessage p {
+  color: var(--text-secondary);
+}
+
+.retryBtn {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background var(--transition-fast);
+}
+
+.retryBtn:hover {
+  background: var(--primary-hover);
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--border-default);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .header {
+    padding: var(--space-md);
+  }
+
+  .logo h1 {
+    font-size: 1.25rem;
+  }
+
+  .main {
+    padding: var(--space-md);
+  }
+}
+
